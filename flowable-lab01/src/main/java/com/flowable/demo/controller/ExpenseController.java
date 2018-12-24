@@ -66,7 +66,7 @@ public class ExpenseController {
 		for (Task task : tasks) {
 			System.out.println(task.toString());
 		}
-		return tasks.toArray().toString();
+		return tasks.toString();
 	}
 
 	/**
